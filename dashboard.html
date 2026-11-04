@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogSpace | Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">BlogSpace</h2>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="create-blog.html">Create Blog</a></li>
+                <li><a href="#" id="logoutBtn">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="dashboard-container">
+
+        <h1>Welcome, <span id="userName">User</span>!</h1>
+        <p>Manage your blog posts from your dashboard.</p>
+
+        <div class="dashboard-actions">
+            <a href="create-blog.html" class="hero-btn">
+                + Create New Blog
+            </a>
+        </div>
+
+        <h2>My Blog Posts</h2>
+
+        <div id="myBlogs" class="blog-container">
+            <p>No blog posts yet. Create your first blog!</p>
+        </div>
+
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
